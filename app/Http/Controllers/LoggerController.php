@@ -35,8 +35,8 @@ class LoggerController extends Controller
     public function logToAll(): void
     {
         $loggerTypes = Config::get('logger.types');
-        foreach($loggerTypes as $loggerType) {
-            $this->logger->sendByLogger('test', $loggerType);
+        foreach($loggerTypes as $key => $value) {
+            $this->logger->sendByLogger('test', $key);
         }
     }
 }
