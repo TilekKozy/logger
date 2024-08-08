@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('log', [LoggerController::class, 'log']);
 Route::get('log-to/{type}', [LoggerController::class, 'logTo']);
-Route::get('logToAll', [LoggerController::class, 'logToAll']);
+Route::get('log-to-all', [LoggerController::class, 'logToAll']);
