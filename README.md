@@ -20,7 +20,7 @@ git clone git@github.com:TilekKozy/logger.git
 sudo chown -R $USER:$USER logger
 ```
 
-#### 3. Перейдите в каталог test_dev
+#### 3. Перейдите в каталог logger
 
 ```code
 cd logger
