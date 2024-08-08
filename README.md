@@ -11,19 +11,19 @@
 #### 1. Клонируем проект
 
 ```code
-git clone git@github.com:TilekKozy/nemo.git
+git clone git@github.com:TilekKozy/logger.git
 ```
 
 #### 2. Установите в каталоге проекта такой уровень разрешений, чтобы ее владельцем был пользователь без привилегий root
 
 ```code
-sudo chown -R $USER:$USER test_task
+sudo chown -R $USER:$USER logger
 ```
 
 #### 3. Перейдите в каталог test_dev
 
 ```code
-cd test_task
+cd logger
 ```
 
 #### 4. Запускаем bash script
